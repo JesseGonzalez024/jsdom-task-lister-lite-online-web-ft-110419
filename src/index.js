@@ -8,7 +8,7 @@ const form = document.getElementById('create-task-form');
 //Stores the HTML <ul> tag. Items created would be displayed as <li>
 let tasks = document.getElementById('tasks') 
 
-// Stores 
+// Stores the HTML text field element
 let newToDo = document.getElementById('new-task-description');
 
 form.addEventListener('submit', function(event) {
