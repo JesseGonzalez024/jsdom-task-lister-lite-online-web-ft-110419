@@ -11,6 +11,7 @@ let tasks = document.getElementById('tasks')
 // Stores the HTML text field element
 let newToDo = document.getElementById('new-task-description');
 
+//While invoking the previously saved form variables, and eventListner is added under the sub element or id of 'submit'
 form.addEventListener('submit', function(event) {
   
    event.preventDefault();
