@@ -20,8 +20,9 @@ form.addEventListener('submit', function(event) {
    //A new variable is created as the text or 'value' of the previously saved newToDo variable. This newly created variable is to be the text inputted by the user.
    let toDo = newToDo.value;
    
-   //Creates a new variable as the HTML element<li>
+   //Creates a new variable as the HTML element <li> which is to be the user response. 
    let toDoItem = document.createElement('li');
+   
    
    let toDoItemText = document.createTextNode(toDo);
    
