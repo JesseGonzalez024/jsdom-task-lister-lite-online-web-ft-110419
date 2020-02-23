@@ -26,12 +26,13 @@ form.addEventListener('submit', function(event) {
    //Creates a new variable which is to be the actual text area where the user's inputted response will be displayed. In otherwords the 'text' of the newly created <li> tag.
    let toDoItemText = document.createTextNode(toDo);
    
-   // Appends or adds the user inputted text saved onto a variable, onto the DOM.
+   // Appends or adds the user inputted text saved onto a variable, onto the DOM by using the varibale as itself
    toDoItem.appendChild(toDoItemText);
    
-   
+   // Appends or adds the item onto the previously saved HTML <ul> tag.
    tasks.appendChild(toDoItem);
    
+   //Refreshes the user input textfield to empty.
    newToDo.value = "";
    
 });
